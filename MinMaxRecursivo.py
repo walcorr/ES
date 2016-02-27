@@ -1,6 +1,6 @@
 def minmax(l):
     if len(l)==0:
-        return None
+        return None,None
     if len(l)==1:
         return l[0],l[0]
     else:
