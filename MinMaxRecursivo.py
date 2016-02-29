@@ -16,4 +16,7 @@ def MaxMin(l,t,mi,ma):
     else:
         return MaxMin(l,t-1,mi,ma)
 
-#tempo O(n) pois vai percorrer a lista inteira. Memória O(n)
+'''
+tempo O(n) pois vai percorrer a lista inteira.
+Memória O(n)
+'''
