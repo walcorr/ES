@@ -7,9 +7,9 @@ def minmax(l):
         return MaxMin(l,len(l),l[0],l[0])
 
 def MaxMin(l,t,mi,ma):
-    if mi<l[t-1]:
+    if mi>l[t-1]:
         mi=l[t-1]
-    if ma>l[t-1]:
+    if ma<l[t-1]:
         ma=l[t-1]
     if t==1:
         return mi,ma
