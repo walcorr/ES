@@ -53,14 +53,6 @@ def esta_balanceada(expressao):
         return True
     else:
         return False
-    """
-    Função que calcula se expressão possui parenteses, colchetes e chaves balanceados
-    O Aluno deverá informar a complexidade de tempo e espaço da função
-    Deverá ser usada como estrutura de dados apenas a pilha feita na aula anterior
-    :param expressao: string com expressao a ser balanceada
-    :return: boleano verdadeiro se expressao está balanceada e falso caso contrário
-    """
-    pass
 
 
 class BalancearTestes(unittest.TestCase):
@@ -114,3 +106,8 @@ class BalancearTestes(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+'''
+Tempo de execução O(n) pois vai percorrer a expressão inteira por um for
+Memória O(n) pois a pilha cresce ou diminui de acordo com o tamanho da expressão
+'''
