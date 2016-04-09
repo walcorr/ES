@@ -1,6 +1,6 @@
 def busca_binaria(seq,procurado ):
     """
-    O(n) em tempo de execução já que o while vai percorrer a sequencia
+    O(log n) em tempo de execução já que o while vai percorrer a sequencia
     O(1) em memória pois possuirá apenas a sequencia e variaveis auxiliares
     """
     if len(seq)==0:
