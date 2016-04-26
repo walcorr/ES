@@ -1,13 +1,13 @@
 import unittest
 from unittest import TestCase
 def calcular_frequencias(s):
-    dic={}
+    dicionario={}
     for a in s:
-        if a in dic.keys():
-            dic[a]+=1
+        if a in dicionario.keys():
+            dicionario[a]+=1
         else:
-            dic[a]=1
-    return dic
+            dicionario[a]=1
+    return dicionario
     pass
 
 
